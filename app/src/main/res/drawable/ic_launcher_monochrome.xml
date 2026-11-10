@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon foreground (108dp canvas, safe zone is the centre 66dp): a green ring, crosshair and a glowing bubble. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- soft glow -->
+    <path
+        android:fillColor="#223DFF8B"
+        android:pathData="M54,54m-27,0a27,27 0,1 1,54 0a27,27 0,1 1,-54 0" />
+
+    <!-- outer ring -->
+    <path
+        android:pathData="M54,54m-23,0a23,23 0,1 1,46 0a23,23 0,1 1,-46 0"
+        android:strokeColor="#3DFF8B"
+        android:strokeWidth="3.2" />
+
+    <!-- crosshair, open in the middle -->
+    <path
+        android:pathData="M54,25L54,38M54,70L54,83M25,54L38,54M70,54L83,54"
+        android:strokeColor="#3DFF8B"
+        android:strokeAlpha="0.55"
+        android:strokeLineCap="round"
+        android:strokeWidth="2.4" />
+
+    <!-- target -->
+    <path
+        android:pathData="M54,54m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0"
+        android:strokeColor="#3DFF8B"
+        android:strokeAlpha="0.7"
+        android:strokeWidth="1.6" />
+
+    <!-- bubble -->
+    <path
+        android:fillColor="#3DFF8B"
+        android:pathData="M54,54m-6.5,0a6.5,6.5 0,1 1,13 0a6.5,6.5 0,1 1,-13 0" />
+    <path
+        android:fillColor="#B8FFD6"
+        android:pathData="M51.7,51.6m-1.8,0a1.8,1.8 0,1 1,3.6 0a1.8,1.8 0,1 1,-3.6 0" />
+</vector>

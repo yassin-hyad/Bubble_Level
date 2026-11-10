@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bubble Level</string>
+
+    <!-- Modes -->
+    <string name="mode_level">Level</string>
+    <string name="mode_spirit">Spirit</string>
+    <string name="mode_angle">Angle</string>
+
+    <!-- Top bar -->
+    <string name="cd_calibrate">Calibrate</string>
+    <string name="cd_settings">Settings</string>
+
+    <!-- Readouts -->
+    <string name="label_x">X</string>
+    <string name="label_y">Y</string>
+    <string name="label_tilt">TILT</string>
+    <string name="label_horizontal">HORIZONTAL</string>
+    <string name="label_plumb">PLUMB</string>
+    <string name="label_slope">SLOPE</string>
+    <string name="label_ratio">RATIO</string>
+    <string name="label_from_vertical">FROM VERTICAL</string>
+    <string name="status_level">LEVEL</string>
+    <string name="status_tilted">TILTED</string>
+    <string name="status_held">HELD</string>
+    <string name="dash">—</string>
+
+    <!-- Buttons -->
+    <string name="hold">Hold</string>
+    <string name="release">Release</string>
+    <string name="zero">Zero</string>
+    <string name="reset_zero">Reset zero</string>
+
+    <!-- Hints -->
+    <string name="hint_level">Lay your phone flat, screen up</string>
+    <string name="hint_spirit">Stand it on an edge or hold it against a wall</string>
+    <string name="hint_angle">Rest an edge on the slope to read its angle</string>
+    <string name="no_sensor_title">No motion sensor</string>
+    <string name="no_sensor_body">This device has no accelerometer, so Bubble Level cannot measure tilt.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="setting_haptics">Vibrate when level</string>
+    <string name="setting_sound">Beep when level</string>
+    <string name="setting_keep_on">Keep screen on</string>
+    <string name="setting_units">Units</string>
+    <string name="units_degrees">Degrees °</string>
+    <string name="units_percent">Slope %</string>
+    <string name="setting_precision">Precision</string>
+    <string name="precision_fine">0.1°</string>
+    <string name="precision_coarse">1°</string>
+    <string name="setting_tolerance">Level tolerance</string>
+    <string name="privacy_note">No account and no sign-in. Your measurements never leave your phone. A small banner is served by Google AdMob.</string>
+    <string name="privacy_options">Privacy and ad choices</string>
+
+    <!-- Calibration -->
+    <string name="cal_title">Calibrate</string>
+    <string name="cal_intro">Put the phone flat on a surface you trust is level. For the best accuracy we measure twice, turning the phone around in between, which cancels the sensor error.</string>
+    <string name="cal_start">Start</string>
+    <string name="cal_step1_title">Step 1 of 2</string>
+    <string name="cal_step1_body">Lay the phone flat, screen up, and keep it still.</string>
+    <string name="cal_step2_title">Step 2 of 2</string>
+    <string name="cal_step2_body">Turn the phone 180° on the same spot. Do not flip it over.</string>
+    <string name="cal_capture">Measure</string>
+    <string name="cal_skip_step2">Skip: my surface is perfectly level</string>
+    <string name="cal_done">Calibrated</string>
+    <string name="cal_done_body">Your phone now reads zero on a level surface.</string>
+    <string name="cal_reset">Reset to factory</string>
+    <string name="cal_close">Done</string>
+    <string name="cal_live">Live reading</string>
+    <string name="cal_measuring">Measuring…</string>
+    <string name="cal_not_flat">The phone is not flat enough. Lay it on a level surface and try again.</string>
+</resources>

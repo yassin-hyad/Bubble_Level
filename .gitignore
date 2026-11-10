@@ -1,0 +1,16 @@
+secrets/
+*.jks
+*.keystore
+keystore.properties
+local.properties
+.gradle/
+.kotlin/
+build/
+.idea/
+*.iml
+.DS_Store
+# private notes must never be committed
+CLAUDE.md
+
+# build outputs for publishing
+release/
